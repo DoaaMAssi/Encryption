@@ -7,11 +7,6 @@ In this project, a keystream is generated using LFSR based on a random seed.
 The keystream is then used to encrypt the plaintext using the XOR operation.  
 During decryption, the same seed is extracted and used again to generate the same keystream in order to recover the original message.
 
-## Files
-EmbeddingProcess.py: Contains the encryption process.
-ExtractionProcess.py: Contains the decryption process.
-interface.py: Simple interface to run the program.
-
 ## Baseline Version
 The baseline system uses a simple LFSR to generate the keystream.  
 The feedback function used is:
